@@ -8,7 +8,7 @@
   </p>
 
   <Button @click="state.count++" :label="Count"></Button>
-  <h6>{ state.count }}</h6>
+  <h6>{{ state.count }}</h6>
 
   <p>
     Edit
